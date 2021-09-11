@@ -54,8 +54,8 @@ La visualización de los datos de la base de datos Cloud SQL se realiza mediante
 
 * Los campos de las tablas que se pasan a la base de datos de Cloud SQL son los siguientes:
 
-### TABLA municipios:
-
+### Tabla municipios:
+```
 Codigo_municipio
 
 Nombre_municipio
@@ -109,11 +109,11 @@ Probabilidad_despoblacion_corto_plazo
 Probabilidad_despoblacion_medio_plazo
 
 Probabilidad_despoblacion_largo_plazo
+```
 
 
-
-### TABLA propiedades_venta:
-
+### Tabla propiedades_venta:
+```
 Codigo_municipio
 
 Nombre_municipio
@@ -131,11 +131,11 @@ M2_propiedad
 Ubicacion_propiedad
 
 Contacto_propiedad
+```
 
 
-
-### TABLA transacciones_inmobiliarias:
-
+### Tabla transacciones_inmobiliarias:
+```
 Codigo_municipio
 
 Nombre_municipio
@@ -145,7 +145,7 @@ Año
 Trimestre
 
 Numero_transacciones_inmobiliarias
-
+```
 
 
 * El código del Crawler de la web de terrenos en venta es el siguiente:
